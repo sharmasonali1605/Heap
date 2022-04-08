@@ -52,7 +52,7 @@ class Driverclass
 
             for(int i=0; i<n; i++)
                 arr[i] = sc.nextLong();
-            out.println(new Solution().minCost(arr, n));
+            out.println(new minCostOFRopes().minCost(arr, n));
             t--;
         }
         out.flush();
@@ -60,7 +60,7 @@ class Driverclass
 }// } Driver Code Ends
 
 
-class Solution
+class minCostOFRopes
 {
     //Function to return the minimum cost of connecting the ropes.
     long minCost(long arr[], int n)
